@@ -19,40 +19,44 @@
 - **机器学习算法**：用于预测模型和异常检测
 
 ## 项目结构
+<details>
+<summary>项目结构（点击展开）</summary>
 
-├── B题-企业财务数据分析与造假识别.pdf   # 项目说明文档
-├── B题-企业财务数据分析与造假识别.zip   # 项目压缩包
+```plaintext
+project-root/
+├── B题-企业财务数据分析与造假识别.pdf   # 题目文档
+├── B题-企业财务数据分析与造假识别.zip   # 题目压缩包（原文件）
 ├── README.md                          # 项目说明
 ├── report.pdf                         # 项目报告
-├── 竞赛提交说明-B题.pdf                # 竞赛提交说明
-├── image/                             # 图像资源目录
-│   ├── 2-1（1）.png                   # 分析图表
+├── 竞赛提交说明-B题.pd
+├── image/                             # 数据分析结果展示图
+│   ├── 2-1（1）.png
 │   ├── 2-1（2）.png
 │   ├── 2-2（1）.png
 │   ├── 2-2（2）.png
 │   ├── 2-2（3）.png
 │   ├── 2-2（4）.png
 │   ├── 3-1.png
-│   └── 可视化大屏.png                 # 可视化大屏展示
-├── program/                           # 程序代码目录
-│   ├── 1-1.ipynb                      # 数据预处理相关代码
+│   └── 可视化大屏.png
+├── program/                           # 程序代码
+│   ├── 1-1.ipynb
 │   ├── 1-2.ipynb
 │   ├── 1-3.ipynb
 │   ├── 1-4.ipynb
 │   ├── 1-5.ipynb
 │   ├── 1-6.ipynb
-│   ├── 2-1.ipynb                      # 数据分析相关代码
+│   ├── 2-1.ipynb
 │   ├── 2-2.ipynb
-│   ├── 3-1.ipynb                      # 预测与造假识别相关代码
+│   ├── 3-1.ipynb
 │   └── 3-2.ipynb
-├── result/                            # 分析结果目录
+├── result/                            # 分析处理结果数据
 │   ├── LR_1.csv
 │   ├── LR_2.csv
 │   ├── LR_3.csv
 │   ├── LR_4.csv
 │   ├── LR_5.csv
 │   └── LR_new.csv
-└── 数据/                              # 原始与处理后的数据
+└── 数据/                              # 原始数据
     ├── LR.csv
     ├── Stk_ind.csv
     ├── Stk_ind - 副本.csv
@@ -61,6 +65,9 @@
     ├── financial_data_new.csv
     ├── target_data.xlsx
     └── test.csv
+```
+</details>
+
 ## 项目内容说明
 
 ### 数据预处理 (program/1-*.ipynb)
